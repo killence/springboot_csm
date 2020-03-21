@@ -1,0 +1,25 @@
+spring:
+#mongodb配置
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/mangage
+#thymeleaf配置
+  thymeleaf:
+    cache: false
+#session配置
+  session:
+    store-type: redis
+    timeout: 3600
+#redis配置
+  redis:
+    host: 0.0.0.0 #ip地址
+    port: 6379
+    timeout: 0
+#邮件配置
+  mail:
+    host: smtp.qq.com
+    username: #
+    password: #
+    default-encoding: UTF-8
+server:
+  port: 8181
